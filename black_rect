@@ -19,7 +19,7 @@ background-color:black;
 
 
 <script>
-    var placename=prompt("what do you like to record?");
+    var placename=prompt("what do you  to record?");
     document.getElementById("my_first_div").innerHTML = " " + placename + " ";
 
 </script>
