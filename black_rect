@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+            
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive .">
+<style>
+
+#my_first_div {
+height:250px;
+width:250px;
+background-color:black;
+}
+
+</style>
+
+
+<script>
+    var placename=prompt("what do you like to record?");
+    document.getElementById("my_first_div").innerHTML = " " + placename + " ";
+
+</script>
+        
+    </head>
+
+<body>
+
+  <div id="my_first_div"></div>
+    <div id="my_second_div"></div>
+    <div id="my_third_div"></div>
+    <div class="my_first_class"></div> 
+   
+
+
+
+
+
+</body>
+
+
+
+</html>
